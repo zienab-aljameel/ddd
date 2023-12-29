@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D project</title>
+    <!-- css styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/small_mobile.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/small-tablet.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/computer.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Economica:ital@1&family=Khand:wght@500&family=Playpen+Sans:wght@500;600&family=Stardos+Stencil&family=Sunflower:wght@300&display=swap" rel="stylesheet">    <!-- 3d opject -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!-- icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <section class="sec1">
+        <aside class="left-side">
+            <div class="logo">
+                <img src="images/logo3.jpg" alt="">
+            </div>
+            <div class="icons">
+                <div class="icons-title">
+                    Features
+                </div>
+                <a href=""><ion-icon name="nuclear-outline"></ion-icon></a>
+                <a href=""><ion-icon name="radio-outline"></ion-icon></a>
+                <a href=""><ion-icon name="flash-outline"></ion-icon></a>
+            </div>
+            <div class="accessory">
+                <img src="images/Accessory.jpg" alt="">
+            </div>
+        </aside>
+        <header class="header">
+            <ul>
+                <li class="informations">
+                    <a href="" class="about-us">
+                        ABOUT US <ion-icon name="add-outline"></ion-icon>
+                    </a>
+                    <a href="" class="support">
+                        SUPPORT <ion-icon name="add-outline"></ion-icon>
+                    </a>
+                </li>
+                <li class="title">
+                    <a href="">
+                        Gaming
+                    </a>
+                </li>
+                <li class="site">
+                    <a href="">
+                        <ion-icon name="globe-outline"></ion-icon> 
+                        www.gaming.com
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <aside class="right-side">
+            <div class="right-side-head">
+                <a href="">SUPPORT</a>
+                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+            </div>
+
+            <div class="product-colors-container">
+                <div class="product-color">
+                    <div class="profile-title">
+                        Colors
+                    </div>
+                    <a href=""><img class="red" src="images/chiar-green.png" alt=""></a>
+                    <a href=""><img src="images/chiar-purple.png" alt=""></a>
+                    <a href=""><img class="orange" src="images/chiar-orange.png" alt=""></a>
+                    <a href=""><img class="yellow" src="images/chiar-yellow.png" alt=""></a>
+
+                </div>
+                <a href="" class="profile">
+                    <img src="images/profile-img2.jpg" alt="">
+                    <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                </a>
+            </div>
+
+            <div class="next">
+                <a href=""><ion-icon name="chevron-forward-outline"></ion-icon></a>
+            </div>
+        </aside>
+        
+        <div class="gaming-chair-container">
+            <div class="gaming-chair">
+                <model-viewer class="gaming-chair-gltf"  src="scene.gltf" alt="VR Headset" auto-rotate camera-controls ar ios-src="scene.gltf"></model-viewer>
+            </div>
+        </div>
+
+        <div class="columns-container">
+            <div class="columns">
+                <div class="column column1">
+                    <div class="informations-container">
+                        <div class="numbers">
+                            <div class="num active">1</div>
+                            <div class="num">2</div>
+                            <div class="num">3</div>
+                            <div class="num">4</div>
+                        </div>
+                        <div class="information">
+                            whether you're after optimal ergonomics or all-day comfort,
+                            find the support you're looking for with our range of PC gaming 
+                            chairs designed to fit every gamer.
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    <span>Most Comfortable <br> And Relaxing</span>
+                    <div class="by">
+                        _active_programmr_
+                    </div>
+                </div>
+                <div class="column column2">
+                    <div class="gamingchair">
+                        Gaming Chair
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
